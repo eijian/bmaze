@@ -1,0 +1,41 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Book {
+  code: String!
+  title: String!
+  lead: String
+}
+
+type Choice {
+  scene: Int!
+  text: String!
+}
+
+type Scene {
+  code: String!
+  scene: Int!
+  title: String
+  desc: String!
+  choices: [Choice!]
+}
+
+type BooksResult {
+  success: Boolean!
+  errors: [String]
+  books: [Book]
+}
+
+type SceneResult {
+  success: Boolean!
+  errors: [String]
+  scene: Scene
+}
+
+type Query {
+  books: BookResult!
+  scene: SceneResult!
+}
+
