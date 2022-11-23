@@ -1,0 +1,9 @@
+{
+  "name": "bmaze-project",
+  "version": "1.0.0",
+  "scripts": {
+    "api": "elm-graphql http://192.168.11.113:4567/graphql --base Bmaze"
+  }
+
+}
+

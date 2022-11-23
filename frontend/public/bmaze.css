@@ -1,0 +1,20 @@
+
+
+@font-face {
+  font-family: 'Lobster', cursive;
+  font-family: 'Rammetto One', cursive;
+  font-family: 'Yomogi', cursive;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+div.hero-body {
+  font-family: 'Rammetto One';
+}
+
+div.book-scene {
+  font-family: 'Yomogi';
+}
+
+div.book-title {
+  font-family: 'Yusei Magic';
+}

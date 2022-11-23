@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@dillonkearns/elm-graphql": "^4.2.1"
+  }
+}
